@@ -1,3 +1,4 @@
+/* Styles for screen widths up to 1400px */
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
@@ -8,10 +9,11 @@
   }
   #contact,
   #projects {
-    height: fit-content;
+    height: auto;
   }
 }
 
+/* Styles for screen widths up to 1200px */
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
@@ -32,9 +34,7 @@
   }
   section,
   .section-container {
-    height: fit-content;
-  }
-  section {
+    height: auto;
     margin: 0 5%;
   }
   .section__pic-container {
@@ -47,6 +47,7 @@
   }
 }
 
+/* Styles for screen widths up to 600px */
 @media screen and (max-width: 600px) {
   #contact,
   footer {
@@ -60,7 +61,7 @@
     font-size: 1rem;
   }
   footer nav {
-    height: fit-content;
+    height: auto;
     margin-bottom: 2rem;
   }
   .about-containers,
@@ -87,7 +88,7 @@
     text-align: center;
   }
   .section__pic-container {
-    width: auto;
+    width: 100%;
     height: 46vw;
     justify-content: center;
   }
